@@ -249,7 +249,8 @@
   padding-bottom: 20px;
   padding-left: 20px;
 }
-.img-card-1 {background-image: url(/img/card-1.png);}
+
+.img-card-1 {background-image: url(./img/card-1.png);}
 
 .btn-time {
   background-color: #fff;
@@ -291,6 +292,7 @@
   line-height: 1.7;
   letter-spacing: 0.5px;
 }
+
 
 .img-card-2 {background-image: url(/img/card-2.png);}
 
@@ -385,10 +387,17 @@
   }
 }
 
+
+
+
+
+
+
 @media (max-width: 756px){
   .course-card{
     flex-direction: column;
   }
+  
   .img-card-1, .img-card-2, .img-card-3{
     margin: 0;
   }
@@ -399,6 +408,14 @@
     order: -1;
   }
 }
+
+
+
+
+
+
+
+
 
 @media (max-width: 578px){
   .navigation-holder{
